@@ -5,7 +5,7 @@
   "repository": "https://github.com/ekwing/eslint-config-ekwing",
   "author": "L-Chris <563303226@qq.com>",
   "license": "MIT",
-  "dependencies": {
+  "peerDependencies": {
     "babel-eslint": "^10.0.1",
     "eslint": "^5.15.3",
     "eslint-config-prettier": "^4.1.0",

@@ -1,8 +1,8 @@
 module.exports = {
   extends: [
-    './index.js',
     require.resolve('eslint-config-prettier/vue'),
-    'plugin:vue/essential'
+    'plugin:vue/essential',
+    './index.js'
   ],
   rules: {
     'vue/v-on-style': 'error',

@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
-    './index.js',
     require.resolve('eslint-config-prettier/react'),
-    'plugin:react/essential'
-  ],
+    'plugin:react/essential',
+    './index.js'
+  ]
 }

@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
-    require.resolve('eslint-config-prettier/vue'),
     'plugin:vue/essential',
+    require.resolve('eslint-config-prettier/vue'),
     './index.js'
   ],
   rules: {
@@ -17,5 +17,9 @@ module.exports = {
     'vue/component-name-in-template-casing': ['error', 'PascalCase', {
       ignores: []
     }]
+  },
+  parser: 'vue-eslint-parser',
+  parserOptions: {
+    parser: 'babel-eslint'
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ekwing",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "index.js",
   "repository": "https://github.com/ekwing/eslint-config-ekwing",
   "author": "L-Chris <563303226@qq.com>",
